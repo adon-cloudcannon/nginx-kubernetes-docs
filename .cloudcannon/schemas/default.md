@@ -7,11 +7,8 @@ toc: true
 description: ""
 # Assign weights in increments of 100
 # Lower numbers appear higher in the document list
-weight: 
-doctypes: []
+weight: 100
+doctypes: [""]
 docs:
-draft:
-_inputs:
-  doctypes[*]:
-    type: text
+draft: false
 ---
