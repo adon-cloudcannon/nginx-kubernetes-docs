@@ -1,0 +1,4 @@
+#!/bin/bash
+
+## Find and fix broken images and links caused by how the baseURL is set in the config.yml
+find docs/public -type f -name "*.html" -exec sed -i 's/="\/\//="\//g' {} \;

@@ -19,7 +19,12 @@ collections_config:
     output: true
     filter: strict
     parse_branch_index: true
+    description: ''
     icon: notes
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -32,10 +37,19 @@ collections_config:
         remove_extra_inputs: false
         name: Page
         icon: notes
+        _editables:
+        _inputs:
+        _select_data:
+        _structures:
   configuration:
     path: content/configuration
     output: true
+    description: ''
     icon: notes
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
