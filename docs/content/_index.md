@@ -1,6 +1,12 @@
 ---
+_schema: default
 title: NGINX Ingress Controller
+toc: true
 description:
-linkTitle: "NGINX Ingress Controller"
+weight: 100
+doctypes:
+  - ''
+draft: false
+linkTitle: NGINX Ingress Controller
 menu: docs
 ---
