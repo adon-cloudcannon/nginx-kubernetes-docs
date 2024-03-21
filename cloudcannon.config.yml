@@ -115,3 +115,23 @@ collections_config:
     disable_file_actions: false
 data_config: {}
 timezone: Etc/UTC
+commit_templates:
+  - template_string: '{commit_type}: {message|trim} {breaking_change|if=breaking_change_message}'
+    _inputs:
+      commit_type:
+        type: select
+        options:
+          allow_empty: true
+          values:
+            - feature
+            - fix
+            - refactor
+            - update
+        cascade: true
+      breaking_change_message:
+        type: text
+        cascade: true
+    extra_data:
+      breaking_change: |-
+
+        ⚠️ {breaking_change_message}
