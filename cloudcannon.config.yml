@@ -147,6 +147,20 @@ _snippets:
       shortcode_name: note
       content_key: content_markdown
       named_args: []
+  relref:
+    template: hugo_shortcode_positional_args
+    inline: true
+    preview:
+      view: inline
+      icon: link
+      text:
+        - key: url
+        - Empty URL
+    definitions:
+      shortcode_name: relref
+      positional_args:
+        - editor_key: url
+          type: string
 data_config: {}
 timezone: Etc/UTC
 commit_templates:
