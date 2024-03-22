@@ -9,6 +9,7 @@ description: ""
 # Lower numbers appear higher in the document list
 weight: 100
 doctypes: [""]
+aliases: [""]
 docs:
 draft: false
 ---
