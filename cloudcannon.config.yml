@@ -113,6 +113,33 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+_snippets:
+  important:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    preview:
+      text: Important
+      subtext:
+        - key: content_markdown
+        - Important note in a callout box.
+      icon: priority_high
+    definitions:
+      shortcode_name: important
+      content_key: content_markdown
+      named_args: []
+  note:
+    template: hugo_paired_shortcode_named_args
+    inline: false
+    preview:
+      text: Note
+      subtext:
+        - key: content_markdown
+        - Note in callout box.
+      icon: edit_note
+    definitions:
+      shortcode_name: note
+      content_key: content_markdown
+      named_args: []
 data_config: {}
 timezone: Etc/UTC
 commit_templates:
