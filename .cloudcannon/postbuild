@@ -4,6 +4,6 @@
 find docs/public -type f -name "*.html" -exec sed -i 's/="\/\//="\//g' {} \;
 
 mv docs/public nginx-ingress-controller
-mkdir -p docs/public
-mv nginx-ingress-controller docs/public
-mv docs/public/nginx-ingress-controller/_cloudcannon docs/public
+mkdir -p public
+mv nginx-ingress-controller public
+mv public/nginx-ingress-controller/_cloudcannon public
