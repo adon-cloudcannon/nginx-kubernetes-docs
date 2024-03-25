@@ -1,4 +1,4 @@
-baseurl: /
+base_url: /
 source: docs
 paths:
   data: data
