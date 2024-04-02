@@ -14,7 +14,7 @@ paths:
   publish: public
   config: ''
 collections_config:
-  label: Collections
+  description: Collections
   pages:
     path: content
     output: true
