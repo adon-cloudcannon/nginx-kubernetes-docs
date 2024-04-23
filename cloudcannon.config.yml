@@ -38,7 +38,6 @@ collections_config:
         name: Page
         icon: notes
         _editables:
-          table: true
         _inputs:
         _select_data:
         _structures:
@@ -99,3 +98,6 @@ collections_config:
     disable_file_actions: false
 data_config: {}
 timezone: Etc/UTC
+_editables:
+  content:
+     table: true
