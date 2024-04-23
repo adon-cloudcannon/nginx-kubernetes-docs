@@ -38,6 +38,7 @@ collections_config:
         name: Page
         icon: notes
         _editables:
+          table: true
         _inputs:
         _select_data:
         _structures:
