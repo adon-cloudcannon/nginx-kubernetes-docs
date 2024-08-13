@@ -23,7 +23,7 @@ jobs:
       chart_version: ${{ steps.vars.outputs.chart_version }}
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
       - name: Output Variables
         id: vars
@@ -43,12 +43,12 @@ jobs:
       contents: write # for lucacome/draft-release
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
         with:
           fetch-depth: 0
 
       - name: Create/Update Draft
-        uses: lucacome/draft-release@a98777f0bae0a6815cc1df77ebe48ca70e7cb970 # v1.0.3
+        uses: lucacome/draft-release@8a63d32c79a171ae6048e614a8988f0ac3ed56d4 # v1.1.0
         id: release-notes
         with:
           minor-label: "enhancement"
